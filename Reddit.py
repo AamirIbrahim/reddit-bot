@@ -6,18 +6,20 @@ import sqlite3
 '''USER CONFIGURATION'''
 #Your Reddit APP_ID within two quotations
 APP_ID = 
+#Your APP_SECRET within two quotations
 APP_SECRET = 
+#Your Reddit APP_URI within two quotations
 APP_URI = 
+#Your APP_REFRESH withint two quotations
 APP_REFRESH = 
+# If you need assistance with setting up OAUTH, look at this reddit thread
 # https://www.reddit.com/comments/3cm1p8/how_to_make_your_bot_use_oauth2/
 USERAGENT = 
 
-SUBREDDIT = "leagueoflegends"
-# This is the sub or list of subs to scan for new posts.
-# For a single sub, use "sub1". For multiple subs, use "sub1+sub2+sub3+...".
-# For all use "all"
-DUMPSUBREDDIT = "leagueofvideos"
-# The alternate subreddit to submit to.
+#This is the subreddit that you are going to scan for youtube links from
+SUBREDDIT = 
+#This is the subreddit that you are going to send youtube links to
+DUMPSUBREDDIT = 
 
 KEYWORDS = []
 # Posts must contain these words. Case does not matter
