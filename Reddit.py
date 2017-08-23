@@ -4,13 +4,13 @@ import time
 import sqlite3
 
 '''USER CONFIGURATION'''
-
-APP_ID = "pYrbLg8h9b1-rA"
-APP_SECRET = "4onH9d6hrRdUbRA7-aLRttBI_V8"
-APP_URI = "https://127.0.0.1:65010/authorize_callback"
-APP_REFRESH = "13498504-g6naHuYzCDT_D0oay4GNxFpRspw"
+#Your Reddit APP_ID within two quotations
+APP_ID = 
+APP_SECRET = 
+APP_URI = 
+APP_REFRESH = 
 # https://www.reddit.com/comments/3cm1p8/how_to_make_your_bot_use_oauth2/
-USERAGENT = "User-Agent: Test2 (by /u/CynicalArab)"
+USERAGENT = 
 
 SUBREDDIT = "leagueoflegends"
 # This is the sub or list of subs to scan for new posts.
